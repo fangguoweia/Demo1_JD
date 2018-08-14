@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jd_demo01.bwei.com.demo1_jd.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        ></FrameLayout>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFAE3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio01"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/select_shouye"
+            android:textColor="@drawable/select_colors"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:textSize="21dp"
+            android:text="首页"/>
+        <RadioButton
+            android:id="@+id/radio02"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/select_fenlei"
+            android:textColor="@drawable/select_colors"
+            android:button="@null"
+            android:textSize="21dp"
+            android:text="分类"
+            />
+        <RadioButton
+            android:id="@+id/radio03"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/select_gouwuche"
+            android:textColor="@drawable/select_colors"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="21dp"
+            android:text="购物车"/>
+        <RadioButton
+            android:id="@+id/radio04"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/select_wode"
+            android:textColor="@drawable/select_colors"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="21dp"
+            android:text="我的"/>
+
+    </RadioGroup>
+
+</LinearLayout>
